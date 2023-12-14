@@ -1,0 +1,130 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    color: #333;
+    background-color: #f5f5f5;
+    margin: 0;
+    padding: 0;
+}
+
+.container, .apply {
+    width: 50%; /* Largeur uniformisée */
+    max-width: 1200px;
+    margin: auto;
+    overflow: hidden;
+}
+
+.hero{
+    background-image: url('fond.jpg'); 
+    background-size: cover;
+    background-position: center;
+    height: 400px;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+}
+
+.cta-button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 15px 30px;
+    color: white;
+    background-color: #388e3c;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cta-button:hover {
+    background-color: #2e7d32;
+}
+
+.cards {
+    padding: 40px 0;
+    background: #e8f5e9;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    background: white;
+    padding: 20px;
+    margin: 20px; /* Marge uniformisée */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    flex-basis: 85%;
+    transition: transform 0.3s ease-in-out;
+}
+
+.card:hover {
+    transform: translateY(-10px);
+}
+
+.domain img {
+    max-width: 20%;
+    height: auto;
+    display: block;
+    margin: 0 auto;
+}
+
+.interest-button {
+    display: block;
+    width: 50%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    background-color: #388e3c;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s;
+    text-align: center;
+}
+
+.interest-button:hover {
+    background-color: #2e7d32;
+}
+
+.apply {
+    background-color: #c8e6c9;
+    padding: 40px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin: auto;
+}
+
+.form-group {
+    margin-bottom: 30px;
+    width: 100%;
+    margin: auto;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #2e7d32;
+    color: white;
+}
+
